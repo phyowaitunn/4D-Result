@@ -1,0 +1,39 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#111;
+  color:white;
+  text-align:center;
+}
+
+header{
+  background:#222;
+  padding:15px;
+}
+
+.tabs button{
+  flex:1;
+  padding:10px;
+  border:none;
+  background:#333;
+  color:white;
+}
+
+.big-number{
+  font-size:40px;
+  font-weight:bold;
+  margin:10px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:8px;
+  padding:10px;
+}
+
+.grid div{
+  background:#222;
+  padding:10px;
+  border-radius:8px;
+}
