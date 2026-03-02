@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malaysia 4D King Web</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🇲🇾 4D KING WEB</h1>
+</header>
+
+<div class="tabs">
+  <button onclick="loadCompany('magnum')">Magnum</button>
+  <button onclick="loadCompany('toto')">Sports Toto</button>
+  <button onclick="loadCompany('damacai')">Da Ma Cai</button>
+</div>
+
+<div class="draw-info">
+  <input type="date" id="drawDate">
+  <button onclick="fetchResults()">Load Result</button>
+</div>
+
+<div class="prize-section">
+  <h2>1st Prize</h2>
+  <div id="firstPrize" class="big-number"></div>
+
+  <h2>2nd Prize</h2>
+  <div id="secondPrize" class="big-number"></div>
+
+  <h2>3rd Prize</h2>
+  <div id="thirdPrize" class="big-number"></div>
+</div>
+
+<h3>Special</h3>
+<div id="specialNumbers" class="grid"></div>
+
+<h3>Consolation</h3>
+<div id="consolationNumbers" class="grid"></div>
+
+<script src="api.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
